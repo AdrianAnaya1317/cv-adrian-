@@ -1,0 +1,10 @@
+# Configuración local de VS Code
+.vscode/
+
+# Archivos generados por extensiones
+.rmv/
+*.log
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
