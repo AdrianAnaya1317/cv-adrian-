@@ -624,3 +624,30 @@ ul {
     }
 
 }
+
+/* Proyecto destacado: SIGAR */
+.proyecto-destacado {
+    grid-column: 1 / -1;
+    border-top: 4px solid var(--color-principal);
+}
+
+.proyecto-acciones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.proyecto-acciones .boton {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .proyecto-acciones {
+        flex-direction: column;
+    }
+
+    .proyecto-acciones .boton {
+        width: 100%;
+    }
+}
